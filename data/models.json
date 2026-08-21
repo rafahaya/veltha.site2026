@@ -1,0 +1,359 @@
+[
+  {
+    "id": "vtd-1-0-1-5",
+    "family": "VTD 1.0",
+    "model": "VTD 1.0 1,5cv",
+    "powerCv": 1.5,
+    "minFlow": 256,
+    "maxFlow": 812,
+    "minPressure": 10,
+    "maxPressure": 35.1,
+    "efficiency": "99.2%",
+    "noiseLevel": "< 68 dBA",
+    "description": "Compacto e eficiente para estações de solda, corte a laser de pequeno porte e bancadas laboratoriais.",
+    "applications": [
+      "Solda TIG/MIG",
+      "Gravação e Corte Laser",
+      "Microfusão",
+      "Laboratórios"
+    ],
+    "cadFile": "VTD-1.0-Compact.step",
+    "dimensions": "650 x 580 x 1150 mm",
+    "weightKg": 120
+  },
+  {
+    "id": "vtd-1-0-3-0",
+    "family": "VTD 1.0",
+    "model": "VTD 1.0 3,0cv",
+    "powerCv": 3,
+    "minFlow": 339,
+    "maxFlow": 998,
+    "minPressure": 4.9,
+    "maxPressure": 45,
+    "efficiency": "99.4%",
+    "noiseLevel": "< 70 dBA",
+    "description": "Ideal para máquinas CNC, usinagem pontual e controle de névoas de óleo vegetal ou mineral.",
+    "applications": [
+      "Usinagem CNC",
+      "Fornos de Tratamento Térmico",
+      "Impressão 3D Industrial"
+    ],
+    "cadFile": "VTD-1.0-3cv.step",
+    "dimensions": "720 x 640 x 1280 mm",
+    "weightKg": 145
+  },
+  {
+    "id": "vtd-1-0-4-0",
+    "family": "VTD 1.0",
+    "model": "VTD 1.0 4,0cv",
+    "powerCv": 4,
+    "minFlow": 256,
+    "maxFlow": 1338,
+    "minPressure": 10,
+    "maxPressure": 69.9,
+    "efficiency": "99.5%",
+    "noiseLevel": "< 71 dBA",
+    "description": "Alta pressão estática para redes de dutos de médio comprimento e captação de fumos densos.",
+    "applications": [
+      "Solda Robótica",
+      "Polimento e Esmerilhamento",
+      "Indústria Têxtil"
+    ],
+    "cadFile": "VTD-1.0-4cv.step",
+    "dimensions": "780 x 680 x 1350 mm",
+    "weightKg": 165
+  },
+  {
+    "id": "vtd-1-0-5-0",
+    "family": "VTD 1.0",
+    "model": "VTD 1.0 5,0cv",
+    "powerCv": 5,
+    "minFlow": 751,
+    "maxFlow": 2187,
+    "minPressure": 5,
+    "maxPressure": 80,
+    "efficiency": "99.6%",
+    "noiseLevel": "< 72 dBA",
+    "description": "Alta versatilidade para captação simultânea de 2 a 4 pontos de emissão com pressão constante.",
+    "applications": [
+      "Metalurgia",
+      "Baterias e Galvanoplastia",
+      "Processamento de Borracha"
+    ],
+    "cadFile": "VTD-1.0-5cv.step",
+    "dimensions": "850 x 750 x 1480 mm",
+    "weightKg": 190
+  },
+  {
+    "id": "vtd-01-04-2-0",
+    "family": "VTD 01.04",
+    "model": "VTD 01.04 2,0cv",
+    "powerCv": 2,
+    "minFlow": 1064,
+    "maxFlow": 4293,
+    "minPressure": 5,
+    "maxPressure": 30.1,
+    "efficiency": "99.3%",
+    "noiseLevel": "< 69 dBA",
+    "description": "Excelente vazão com consumo energético reduzido para grandes volumes de ar com baixa perda de carga.",
+    "applications": [
+      "Indústria Moveleira",
+      "Linhas de Embalagem",
+      "Ventilação Geral Diluidora"
+    ],
+    "cadFile": "VTD-01.04-2cv.step",
+    "dimensions": "950 x 820 x 1620 mm",
+    "weightKg": 230
+  },
+  {
+    "id": "vtd-01-04-4-0",
+    "family": "VTD 01.04",
+    "model": "VTD 01.04 4,0cv",
+    "powerCv": 4,
+    "minFlow": 718,
+    "maxFlow": 5462,
+    "minPressure": 5.1,
+    "maxPressure": 39.9,
+    "efficiency": "99.5%",
+    "noiseLevel": "< 72 dBA",
+    "description": "Equipamento equilibrado para coifas industriais, fritadeiras contínuas e usinagem seriada.",
+    "applications": [
+      "Cozinhas Industriais",
+      "Linhas de Fritura e Alimentos",
+      "Tornos Automáticos"
+    ],
+    "cadFile": "VTD-01.04-4cv.step",
+    "dimensions": "1050 x 900 x 1750 mm",
+    "weightKg": 275
+  },
+  {
+    "id": "vtd-01-04-7-5",
+    "family": "VTD 01.04",
+    "model": "VTD 01.04 7,5cv",
+    "powerCv": 7.5,
+    "minFlow": 3636,
+    "maxFlow": 9375,
+    "minPressure": 4.9,
+    "maxPressure": 80.1,
+    "efficiency": "99.7%",
+    "noiseLevel": "< 74 dBA",
+    "description": "Potência e vazão para galpões de fundição, estampagem a quente e setores químicos.",
+    "applications": [
+      "Fundição",
+      "Pintura Eletrostática",
+      "Indústria Química e Resinas"
+    ],
+    "cadFile": "VTD-01.04-7.5cv.step",
+    "dimensions": "1150 x 980 x 1900 mm",
+    "weightKg": 340
+  },
+  {
+    "id": "vtd-03-08-4-0",
+    "family": "VTD 03.08",
+    "model": "VTD 03.08 4,0cv",
+    "powerCv": 4,
+    "minFlow": 272,
+    "maxFlow": 8078,
+    "minPressure": 5.1,
+    "maxPressure": 40.1,
+    "efficiency": "99.5%",
+    "noiseLevel": "< 71 dBA",
+    "description": "Ampla curva de operação com booster hidrodinâmico eficiente.",
+    "applications": [
+      "Cerâmica e Vidro",
+      "Corte Plasma CNC",
+      "Tratamento de Superfícies"
+    ],
+    "cadFile": "VTD-03.08-4cv.step",
+    "dimensions": "1200 x 1020 x 1950 mm",
+    "weightKg": 360
+  },
+  {
+    "id": "vtd-03-08-7-5",
+    "family": "VTD 03.08",
+    "model": "VTD 03.08 7,5cv",
+    "powerCv": 7.5,
+    "minFlow": 5848,
+    "maxFlow": 9401,
+    "minPressure": 10.1,
+    "maxPressure": 80.1,
+    "efficiency": "99.7%",
+    "noiseLevel": "< 74 dBA",
+    "description": "Solução robusta para controle de pós finos e gases condensáveis.",
+    "applications": [
+      "Farmacêutica (Pós)",
+      "Alimentícia (Silos)",
+      "Cimentos e Minerais"
+    ],
+    "cadFile": "VTD-03.08-7.5cv.step",
+    "dimensions": "1280 x 1080 x 2050 mm",
+    "weightKg": 410
+  },
+  {
+    "id": "vtd-08-20-7-5",
+    "family": "VTD 08.20",
+    "model": "VTD 08.20 7,5cv",
+    "powerCv": 7.5,
+    "minFlow": 7051,
+    "maxFlow": 15553,
+    "minPressure": 5,
+    "maxPressure": 50,
+    "efficiency": "99.6%",
+    "noiseLevel": "< 75 dBA",
+    "description": "Alta vazão para sistemas centralizados de exaustão em galpões fabris.",
+    "applications": [
+      "Usinagem Pesada",
+      "Células de Solda Automatizadas",
+      "Misturadores Industriais"
+    ],
+    "cadFile": "VTD-08.20-7.5cv.step",
+    "dimensions": "1450 x 1200 x 2250 mm",
+    "weightKg": 520
+  },
+  {
+    "id": "vtd-08-20-12-5",
+    "family": "VTD 08.20",
+    "model": "VTD 08.20 12,5cv",
+    "powerCv": 12.5,
+    "minFlow": 11737,
+    "maxFlow": 18953,
+    "minPressure": 5,
+    "maxPressure": 80.1,
+    "efficiency": "99.8%",
+    "noiseLevel": "< 76 dBA",
+    "description": "Modelo de referência para linhas de alta produtividade e processos contínuos 24/7.",
+    "applications": [
+      "Siderurgia",
+      "Indústria Automotiva",
+      "Reciclagem e Granulação"
+    ],
+    "cadFile": "VTD-08.20-12.5cv.step",
+    "dimensions": "1550 x 1300 x 2400 mm",
+    "weightKg": 630
+  },
+  {
+    "id": "vtd-08-20-15",
+    "family": "VTD 08.20",
+    "model": "VTD 08.20 15cv",
+    "powerCv": 15,
+    "minFlow": 13106,
+    "maxFlow": 21235,
+    "minPressure": 5,
+    "maxPressure": 80.1,
+    "efficiency": "99.8%",
+    "noiseLevel": "< 77 dBA",
+    "description": "★ Mais vendido: Potência máxima para grandes linhas fabris com exaustão incorporada e zero chaminés.",
+    "applications": [
+      "Grandes Centrais CNC",
+      "Fornos de Indução",
+      "Caldeiras e Biomassa"
+    ],
+    "cadFile": "VTD-08.20-15cv.step",
+    "dimensions": "1650 x 1380 x 2550 mm",
+    "weightKg": 720
+  },
+  {
+    "id": "vtd-20-35-25",
+    "family": "VTD 20.35",
+    "model": "VTD 20.35 25cv",
+    "powerCv": 25,
+    "minFlow": 20129,
+    "maxFlow": 24168,
+    "minPressure": 5.1,
+    "maxPressure": 49.9,
+    "efficiency": "99.7%",
+    "noiseLevel": "< 78 dBA",
+    "description": "Volume extremo de ar para processos pesados de queima e transformação mecânica.",
+    "applications": [
+      "Mineração",
+      "Asfalto e Concreto",
+      "Fundição Pesada"
+    ],
+    "cadFile": "VTD-20.35-25cv.step",
+    "dimensions": "1850 x 1550 x 2800 mm",
+    "weightKg": 950
+  },
+  {
+    "id": "vtd-20-35-30",
+    "family": "VTD 20.35",
+    "model": "VTD 20.35 30cv",
+    "powerCv": 30,
+    "minFlow": 19723,
+    "maxFlow": 29405,
+    "minPressure": 5,
+    "maxPressure": 80.1,
+    "efficiency": "99.8%",
+    "noiseLevel": "< 79 dBA",
+    "description": "Capacidade pesada de retenção de partículas finas com lavagem centrífuga contínua.",
+    "applications": [
+      "Papel e Celulose",
+      "Secadores Rotativos",
+      "Usinas de Açúcar e Etanol"
+    ],
+    "cadFile": "VTD-20.35-30cv.step",
+    "dimensions": "1980 x 1650 x 2950 mm",
+    "weightKg": 1120
+  },
+  {
+    "id": "vtd-20-35-40",
+    "family": "VTD 20.35",
+    "model": "VTD 20.35 40cv",
+    "powerCv": 40,
+    "minFlow": 26991,
+    "maxFlow": 36290,
+    "minPressure": 5,
+    "maxPressure": 80.2,
+    "efficiency": "99.85%",
+    "noiseLevel": "< 80 dBA",
+    "description": "Performance superior para complexos industriais com alta carga poluente.",
+    "applications": [
+      "Piderúrgicas e Aciarias",
+      "Geração de Energia",
+      "Química Pesada"
+    ],
+    "cadFile": "VTD-20.35-40cv.step",
+    "dimensions": "2150 x 1780 x 3150 mm",
+    "weightKg": 1350
+  },
+  {
+    "id": "vtd-30-45-40",
+    "family": "VTD 30.45",
+    "model": "VTD 30.45 40cv",
+    "powerCv": 40,
+    "minFlow": 15694,
+    "maxFlow": 29408,
+    "minPressure": 4.9,
+    "maxPressure": 99.5,
+    "efficiency": "99.85%",
+    "noiseLevel": "< 80 dBA",
+    "description": "Pressão ultra alta de até 100 mm.ca para vencer perdas de carga complexas.",
+    "applications": [
+      "Filtros Centralizados de Alta Pressão",
+      "Processos com Longa Tubulação"
+    ],
+    "cadFile": "VTD-30.45-40cv.step",
+    "dimensions": "2300 x 1900 x 3350 mm",
+    "weightKg": 1580
+  },
+  {
+    "id": "vtd-30-45-50",
+    "family": "VTD 30.45",
+    "model": "VTD 30.45 50cv",
+    "powerCv": 50,
+    "minFlow": 24006,
+    "maxFlow": 44502,
+    "minPressure": 5,
+    "maxPressure": 99.6,
+    "efficiency": "99.9%",
+    "noiseLevel": "< 81 dBA",
+    "description": "O maior precipitador da linha: até 44.500 m³/h de ar puro com turbo centrifugação total.",
+    "applications": [
+      "Mega Plantas Industriais",
+      "Complexos Petroquímicos",
+      "Siderúrgicas Integradas"
+    ],
+    "cadFile": "VTD-30.45-50cv.step",
+    "dimensions": "2500 x 2100 x 3600 mm",
+    "weightKg": 1950
+  }
+]

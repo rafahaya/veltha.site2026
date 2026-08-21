@@ -1,0 +1,52 @@
+[
+  {
+    "id": "dl-1",
+    "category": "cad",
+    "title": "Modelos CAD 3D — Linha VTD Completa (.STEP / .IGES)",
+    "format": "STEP / ZIP",
+    "size": "42.8 MB",
+    "file": "Veltha_VTD_3D_Models_Full_Package.zip",
+    "desc": "Arquivos 3D volumétricos e dimensionais para inclusão direta em projetos no SolidWorks, Inventor e AutoCAD.",
+    "isLocked": true
+  },
+  {
+    "id": "dl-2",
+    "category": "cad",
+    "title": "Plantas Baixas e Cortes 2D (.DWG)",
+    "format": "DWG / AutoCAD",
+    "size": "18.4 MB",
+    "file": "Veltha_VTD_Plantas_Cortes_2D.dwg",
+    "desc": "Desenhos técnicos 2D com detalhes de bocais de entrada/saída, flanges e fixação em piso.",
+    "isLocked": true
+  },
+  {
+    "id": "dl-3",
+    "category": "manual",
+    "title": "Manual de Engenharia, Instalação e Operação VTD",
+    "format": "PDF",
+    "size": "8.5 MB",
+    "file": "Manual_Engenharia_Operacao_VTD_Veltha.pdf",
+    "desc": "Guia completo de dimensionamento de dutos, conexões hidráulicas e automação do sistema.",
+    "isLocked": false
+  },
+  {
+    "id": "dl-4",
+    "category": "laudo",
+    "title": "Laudos Laboratoriais de Emissão e Eficiência (CETESB/IBAMA)",
+    "format": "PDF",
+    "size": "5.2 MB",
+    "file": "Laudos_Eficiencia_Ambiental_CONAMA_CETESB.pdf",
+    "desc": "Relatórios de ensaios e medições gravimétricas comprovando retenção de até 99.9% de poluentes.",
+    "isLocked": true
+  },
+  {
+    "id": "dl-5",
+    "category": "datasheet",
+    "title": "Data Sheet Consolidado — 17 Modelos VTD",
+    "format": "PDF",
+    "size": "3.1 MB",
+    "file": "DataSheet_Tecnico_Precipitadores_VTD.pdf",
+    "desc": "Tabela comparativa de potência, vazões, pressões de trabalho e consumo de água em circuito fechado.",
+    "isLocked": false
+  }
+]

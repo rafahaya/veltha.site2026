@@ -1,0 +1,11 @@
+[
+  {
+    "id": "user-demo",
+    "name": "Eng. Roberto Santos",
+    "company": "Indústria Metalmecânica S/A",
+    "email": "engenharia@cliente.com",
+    "password": "veltha2026",
+    "role": "engenheiro",
+    "createdAt": "2026-08-18T12:23:47.985Z"
+  }
+]

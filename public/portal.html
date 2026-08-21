@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal da Engenharia &amp; Downloads Exclusivos | Veltha</title>
+  <meta name="description" content="Área exclusiva para clientes e engenheiros da Veltha. Acesso a arquivos 3D CAD STEP, plantas 2D DWG, manuais e laudos ambientais.">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body style="background-color: var(--bg-body);">
+
+  <!-- Ambient Light Gradients -->
+  <div class="ambient-bg"></div>
+
+  <!-- ========================================================
+       PORTAL HEADER
+       ======================================================== -->
+  <header class="site-header" style="position: sticky; top: 0;">
+    <div class="container">
+      <div class="header-inner">
+        <!-- Logo + Portal Title -->
+        <div style="display: flex; align-items: center; gap: 18px;">
+          <a href="/" class="brand-logo-wrap">
+            <img src="/images/logo_veltha.png" class="logo-img-main" alt="Veltha — Tratamento e Depuração do Ar">
+          </a>
+          <span style="height: 24px; width: 1.5px; background: var(--border-medium); display: inline-block;"></span>
+          <span style="font-family: var(--font-heading); font-size: 0.95rem; font-weight: 800; color: var(--veltha-teal-dark); background: var(--bg-soft-teal); padding: 4px 14px; border-radius: var(--radius-full); border: 1px solid var(--border-teal);">
+            🔐 Portal da Engenharia
+          </span>
+        </div>
+
+        <!-- Right User Actions -->
+        <div class="header-actions">
+          <div id="portalUserBadge" style="display: none; align-items: center; gap: 12px;">
+            <div style="text-align: right;">
+              <div id="userNameDisplay" style="font-size: 0.88rem; font-weight: 800; color: var(--text-primary);">Eng. Roberto</div>
+              <div id="userCompanyDisplay" style="font-size: 0.72rem; color: var(--text-muted);">Indústria Metalmecânica</div>
+            </div>
+            <button type="button" class="btn-portal-header" id="btnLogoutPortal" style="padding: 6px 14px; font-size: 0.8rem;">
+              Sair ➔
+            </button>
+          </div>
+
+          <a href="/" class="btn-hero-secondary" style="padding: 9px 18px; font-size: 0.88rem;">
+            <span>← Voltar ao Site</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================
+       MAIN PORTAL CONTAINER
+       ======================================================== -->
+  <main class="container" style="padding: 40px 24px 80px 24px;">
+
+    <!-- ======================================================
+         STATE 1: UNAUTHENTICATED (LOGIN / REGISTER VIEW)
+         ====================================================== -->
+    <div id="portalAuthView" style="display: none;">
+      <div style="display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; align-items: start; margin-top: 20px;">
+        
+        <!-- Left Column: Benefits & Overview -->
+        <div>
+          <span class="section-tag">Acesso Restrito a Clientes &amp; Parceiros</span>
+          <h1 style="font-family: var(--font-heading); font-size: 2.8rem; font-weight: 900; line-height: 1.15; margin-bottom: 20px; color: var(--text-primary);">
+            Documentação Técnica &amp; <span class="hero-headline-gradient">Modelos CAD 3D/2D</span>
+          </h1>
+          
+          <p style="font-size: 1.05rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 32px;">
+            Ambiente exclusivo para projetistas, engenheiros industriais e clientes Veltha. Acesse os pacotes completos para integração imediata no SolidWorks, Inventor e AutoCAD.
+          </p>
+
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div style="display: flex; gap: 14px; align-items: flex-start; background: #FFFFFF; padding: 16px 20px; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); box-shadow: var(--shadow-card);">
+              <span style="font-size: 1.5rem;">📦</span>
+              <div>
+                <strong style="font-family: var(--font-heading); font-size: 1rem; color: var(--text-primary);">Modelos CAD 3D Paramétricos (.STEP / .IGES)</strong>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 2px;">Arquivos volumétricos com conexões de flanges e pontos de fixação para projetos mecânicos.</p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 14px; align-items: flex-start; background: #FFFFFF; padding: 16px 20px; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); box-shadow: var(--shadow-card);">
+              <span style="font-size: 1.5rem;">📐</span>
+              <div>
+                <strong style="font-family: var(--font-heading); font-size: 1rem; color: var(--text-primary);">Plantas Baixas e Cortes 2D (.DWG)</strong>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 2px;">Desenhos dimensionais para projetos de tubulações, coifas e leiaute fabril.</p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 14px; align-items: flex-start; background: #FFFFFF; padding: 16px 20px; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); box-shadow: var(--shadow-card);">
+              <span style="font-size: 1.5rem;">🔬</span>
+              <div>
+                <strong style="font-family: var(--font-heading); font-size: 1rem; color: var(--text-primary);">Laudos Ambientais &amp; Eficiência (CETESB/IBAMA)</strong>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 2px;">Relatórios técnicos e medições gravimétricas para homologação ambiental da sua fábrica.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Login / Register Form Box -->
+        <div style="background: #FFFFFF; border: 2px solid var(--border-teal); border-radius: var(--radius-lg); padding: 36px; box-shadow: var(--shadow-elevated);">
+          
+          <!-- Tabs: Login vs Cadastro -->
+          <div style="display: flex; gap: 8px; margin-bottom: 24px; background: var(--bg-input); padding: 4px; border-radius: var(--radius-md);">
+            <button type="button" class="portal-tab-btn active" id="tabBtnLogin" style="flex: 1; padding: 10px; border: none; border-radius: var(--radius-sm); font-family: var(--font-heading); font-weight: 800; font-size: 0.9rem; cursor: pointer; background: #FFFFFF; color: var(--veltha-teal-dark); box-shadow: 0 2px 6px rgba(0,0,0,0.06);">
+              Entrar na Conta
+            </button>
+            <button type="button" class="portal-tab-btn" id="tabBtnRegister" style="flex: 1; padding: 10px; border: none; border-radius: var(--radius-sm); font-family: var(--font-heading); font-weight: 800; font-size: 0.9rem; cursor: pointer; background: transparent; color: var(--text-secondary);">
+              Novo Cadastro
+            </button>
+          </div>
+
+          <!-- Login Form -->
+          <form id="formPortalLogin">
+            <div class="form-group">
+              <label for="loginEmail">E-mail Corporativo</label>
+              <input type="email" class="form-control" id="loginEmail" placeholder="engenharia@empresa.com" required value="engenharia@cliente.com">
+            </div>
+
+            <div class="form-group">
+              <label for="loginPassword">Senha de Acesso</label>
+              <input type="password" class="form-control" id="loginPassword" placeholder="Sua senha" required value="veltha2026">
+            </div>
+
+            <div style="margin-bottom: 20px; font-size: 0.78rem; color: var(--text-muted);">
+              💡 <em>Dica de demonstração: usuário e senha já preenchidos para teste rápido.</em>
+            </div>
+
+            <button type="submit" class="btn-generate-quote" style="width: 100%;">
+              <span>Entrar no Portal</span>
+              <span>➔</span>
+            </button>
+          </form>
+
+          <!-- Register Form -->
+          <form id="formPortalRegister" style="display: none;">
+            <div class="form-group">
+              <label for="regName">Nome Completo *</label>
+              <input type="text" class="form-control" id="regName" placeholder="Ex: Eng. Juliana Mendes" required>
+            </div>
+
+            <div class="form-group">
+              <label for="regCompany">Empresa / Indústria *</label>
+              <input type="text" class="form-control" id="regCompany" placeholder="Ex: Usinagem &amp; Estamparia S/A" required>
+            </div>
+
+            <div class="form-group">
+              <label for="regEmail">E-mail Corporativo *</label>
+              <input type="email" class="form-control" id="regEmail" placeholder="juliana@usinagem.com.br" required>
+            </div>
+
+            <div class="form-group">
+              <label for="regPassword">Crie uma Senha *</label>
+              <input type="password" class="form-control" id="regPassword" placeholder="Mínimo 6 caracteres" required>
+            </div>
+
+            <button type="submit" class="btn-generate-quote" style="width: 100%; margin-top: 10px;">
+              <span>Cadastrar e Liberar Arquivos</span>
+              <span>➔</span>
+            </button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================================================
+         STATE 2: AUTHENTICATED DASHBOARD (DOWNLOADS VIEW)
+         ====================================================== -->
+    <div id="portalDashboardView" style="display: none;">
+      
+      <!-- Welcome Header -->
+      <div style="background: linear-gradient(135deg, #FFFFFF 0%, #F0FDFA 100%); border: 1.5px solid var(--border-teal); border-radius: var(--radius-lg); padding: 32px; margin-bottom: 36px; box-shadow: var(--shadow-card); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+        <div>
+          <span class="section-tag">Ambiente Liberado</span>
+          <h1 style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 900; color: var(--text-primary);">
+            Central de Arquivos Técnicos &amp; Modelos CAD
+          </h1>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 4px;">
+            Faça o download direto dos modelos 3D, plantas 2D, folhas de dados e laudos de ensaios oficiais dos precipitadores VTD.
+          </p>
+        </div>
+
+        <a href="/#simulador" class="btn-portal-header" style="font-size: 0.9rem; padding: 12px 20px;">
+          <span>🎛️ Abrir Simulador de Modelos</span>
+        </a>
+      </div>
+
+      <!-- Filter Category Pills -->
+      <div style="display: flex; gap: 10px; margin-bottom: 28px; flex-wrap: wrap;" id="categoryFilterContainer">
+        <button type="button" class="portal-filter-pill active" data-cat="all">Todos os Arquivos</button>
+        <button type="button" class="portal-filter-pill" data-cat="cad">📦 Modelos CAD 3D / 2D</button>
+        <button type="button" class="portal-filter-pill" data-cat="manual">📄 Manuais de Engenharia</button>
+        <button type="button" class="portal-filter-pill" data-cat="laudo">🔬 Laudos Ambientais</button>
+        <button type="button" class="portal-filter-pill" data-cat="datasheet">📊 Data Sheets Técnicos</button>
+      </div>
+
+      <!-- Downloads Grid -->
+      <div class="portal-downloads-grid" id="portalGridContainer">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <!-- Custom CAD Support Banner -->
+      <div style="margin-top: 40px; background: #FFFFFF; border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 28px 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; box-shadow: var(--shadow-card);">
+        <div style="display: flex; align-items: center; gap: 18px;">
+          <div style="font-size: 2.2rem;">🛠️</div>
+          <div>
+            <h3 style="font-family: var(--font-heading); font-size: 1.2rem; font-weight: 800;">Precisa de Flanges Customizadas ou Projeto Turn-Key?</h3>
+            <p style="font-size: 0.88rem; color: var(--text-secondary);">Nossa equipe de engenharia desenvolve desenhos específicos para seu layout industrial.</p>
+          </div>
+        </div>
+
+        <a href="https://wa.me/5511987654321?text=Olá,%20gostaria%20de%20solicitar%20um%20desenho%20CAD%20customizado%20para%20minha%20planta." target="_blank" class="btn-generate-quote" style="font-size: 0.92rem; padding: 12px 24px; text-decoration: none;">
+          <span>Falar com Engenheiro no WhatsApp</span>
+          <span>➔</span>
+        </a>
+      </div>
+
+    </div>
+
+  </main>
+
+  <style>
+    .portal-filter-pill {
+      background: #FFFFFF;
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      font-family: var(--font-heading);
+      font-size: 0.86rem;
+      font-weight: 700;
+      padding: 8px 18px;
+      border-radius: var(--radius-full);
+      cursor: pointer;
+      box-shadow: var(--shadow-card);
+      transition: all var(--transition-fast);
+    }
+    .portal-filter-pill:hover {
+      border-color: var(--veltha-teal);
+      color: var(--veltha-teal);
+    }
+    .portal-filter-pill.active {
+      background: var(--veltha-teal);
+      color: #FFFFFF;
+      border-color: var(--veltha-teal);
+      box-shadow: 0 4px 12px rgba(32, 164, 172, 0.35);
+    }
+  </style>
+
+  <!-- Portal Script -->
+  <script src="/js/portal.js"></script>
+</body>
+</html>
